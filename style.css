@@ -45,5 +45,13 @@ body {
     }
 }
 .posi{
+    position: absolute;
 color: #41f941;
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation: color-change 5s infinite;
+    box-shadow: 0 0 50px #41f94180;
+    transition: 0.1s all;
+    opacity: 0.8;
+    overflow: hidden;
 }
